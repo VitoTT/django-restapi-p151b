@@ -21,15 +21,15 @@ python manage.py migrate
 
 # REST API endpoints
 accounts:  
-    /accounts/api/users  
-    /accounts/api/users/{id}  
+    /accounts/api/users/  
+    /accounts/api/users/{id}/  
 cars:  
     /cars/api/carbrands/  
-    /cars/api/carbrands/{id}  
+    /cars/api/carbrands/{id}/  
     /cars/api/carmodels/  
-    /cars/api/carmodels/{id}  
+    /cars/api/carmodels/{id}/  
     /cars/api/usercars/  
-    /cars/api/usercars/{id}  
+    /cars/api/usercars/{id}/  
 
 example requests:
     $ curl http://localhost:8000/accounts/api/users/?username=vito; echo -e "\n"  
