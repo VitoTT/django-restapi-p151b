@@ -36,3 +36,4 @@ example requests:
     $ curl http://localhost:8000/accounts/api/users/3/ echo -e "\n"  
     $ curl http://localhost:8000/cars/api/carbrands/; echo -e "\n"  
     $ curl -d '{"name":"LADA"}' -H "Content-Type: application/json" -X POST http://localhost:8000/cars/api/carbrands/  
+    $ curl -d '{"name":"LADA"}' -H "Content-Type: application/json" -X POST https://django-restapi-p151b.herokuapp.com/cars/api/carbrands/  
